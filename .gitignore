@@ -1,0 +1,20 @@
+# Build artifacts
+build/
+minipc
+
+# Compiled test programs (root and tests/ folder)
+/factor
+/isprime
+/pidigits
+/fibonacci
+tests/factor
+tests/isprime
+tests/pidigits
+tests/fibonacci
+
+# Generated IR at the project root (deliverable copies kept under docs/artifacts/)
+/*.ll
+!docs/artifacts/*.ll
+
+# OS
+.DS_Store
